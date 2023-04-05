@@ -1,6 +1,4 @@
 const { sendEmail } = require('../functions/sendEmail')
-let config
-
 
 // get access by plate string from .txt/.csv
 const emailSender = async (req, res, next) => {
